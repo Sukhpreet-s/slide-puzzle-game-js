@@ -2,6 +2,8 @@
 
 A sliding puzzle game which is played by moving the pieces by clicking on them and arranging them in the order.
 
+[Github pages link to the game](https://sukhpreet-s.github.io/slide-puzzle-game-js/index.html)
+
 ## Getting Started
 
 To start playing, just open index.html file in any browser, prefered ones:
