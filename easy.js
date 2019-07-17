@@ -227,9 +227,3 @@ const puzzle = {
 };
 
 puzzle.initialize();
-
-/* 
-STEP 5 - Comment each function implemented
-STEP 6 - Submit to github
-STEP 7 - host on web server
-*/
