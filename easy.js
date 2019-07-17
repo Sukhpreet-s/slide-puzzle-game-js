@@ -2,11 +2,10 @@
 // distance: number of pixels a puzzle piece will move
 const DISTANCE = 100;
 /** ********************************
-// STEP 1 - Create puzzlePieces data structure.
+// Create puzzlePieces data structure.
 // I suggest using an array of objects but feel free to change that
 // An example of a puzzle piece object could be: { name: ".box1", x: 0, y: 0 }
 ********************************* */
-// const puzzlePieces = [];
 
 const boxElements = [...document.querySelectorAll('[class^="box"]')];
 let boxX = 0;
@@ -48,7 +47,7 @@ const puzzle = {
   isShuffling: true,
   initialize() {
     /** **********************************     
-    // STEP 2 - Implement initialize function such that it
+    // Implement initialize function such that it
     // attache click event handlers for each piece
     // and within that, invokes the slide function
     ************************************** */
@@ -70,7 +69,7 @@ const puzzle = {
     this.directionToMove = this.isMoveable();
     // remember to adjust coordinates including adjusting blank piece's coordinates
     /** **********************************
-    // STEP 4 - Implement slide function so that you set x,y coordinates of appropriate puzzle piece(s)
+    // Implement slide function so that you set x,y coordinates of appropriate puzzle piece(s)
     ******************************** */
     this.setCoordinates();
 
@@ -84,7 +83,7 @@ const puzzle = {
   },
   isMoveable() {
     /** ******************************************
-    // STEP 3 - Implement isMoveable function to find out / return which direction to move
+    // Implement isMoveable function to find out / return which direction to move
     // Is the clicked piece movable?
     // If yes, then return a direction to one of: "up", "down", "left", "right"
     // If no, then return a direction of ""
