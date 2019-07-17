@@ -4,7 +4,7 @@ A sliding puzzle game which is played by moving the pieces by clicking on them a
 
 [Github pages link to the game](https://sukhpreet-s.github.io/slide-puzzle-game-js/index.html)
 
-![Slide Puzzle Game](./slide-puzzle.jpg)
+![Image preview](slide-puzzle.JPG)
 
 ## Getting Started
 
