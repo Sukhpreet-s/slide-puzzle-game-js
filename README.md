@@ -6,14 +6,6 @@ A sliding puzzle game which is played by moving the pieces by clicking on them a
 
 ![Image preview](slide-puzzle.JPG)
 
-## Getting Started
-
-To start playing, just open index.html file in any browser, prefered ones:
-
-```
-Chrome, Firefox
-```
-
 ## Built With
 
 - HTML, CSS, JavaScript
